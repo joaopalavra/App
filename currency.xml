@@ -1,0 +1,42 @@
+<gesmes:Envelope xmlns:gesmes="http://www.gesmes.org/xml/2002-08-01" xmlns="http://www.ecb.int/vocabulary/2002-08-01/eurofxref">
+<gesmes:subject>Reference rates</gesmes:subject>
+<gesmes:Sender>
+<gesmes:name>European Central Bank</gesmes:name>
+</gesmes:Sender>
+<Currency>
+<Currency time="2018-03-29">
+<Currency Country="USD" rate="1.2321"/>
+<Currency Country="GBP" rate="0.87490"/>
+<Currency Country="JPY" rate="131.15"/>
+<Currency Country="BGN" rate="1.9558"/>
+<Currency Country="CZK" rate="25.425"/>
+<Currency Country="DKK" rate="7.4530"/>
+<Currency Country="HUF" rate="312.13"/>
+<Currency Country="PLN" rate="4.2106"/>
+<Currency Country="RON" rate="4.6565"/>
+<Currency Country="SEK" rate="10.2843"/>
+<Currency Country="CHF" rate="1.1779"/>
+<Currency Country="ISK" rate="121.50"/>
+<Currency Country="NOK" rate="9.6770"/>
+<Currency Country="HRK" rate="7.4323"/>
+<Currency Country="RUB" rate="70.8897"/>
+<Currency Country="TRY" rate="4.8976"/>
+<Currency Country="AUD" rate="1.6036"/>
+<Currency Country="BRL" rate="4.0938"/>
+<Currency Country="CAD" rate="1.5895"/>
+<Currency Country="CNY" rate="7.7468"/>
+<Currency Country="HKD" rate="9.6696"/>
+<Currency Country="IDR" rate="16933.98"/>
+<Currency Country="ILS" rate="4.3262"/>
+<Currency Country="INR" rate="80.2960"/>
+<Currency Country="KRW" rate="1310.89"/>
+<Currency Country="MXN" rate="22.5249"/>
+<Currency Country="MYR" rate="4.7658"/>
+<Currency Country="NZD" rate="1.7098"/>
+<Currency Country="PHP" rate="64.374"/>
+<Currency Country="SGD" rate="1.6158"/>
+<Currency Country="THB" rate="38.478"/>
+<Currency Country="ZAR" rate="14.6210"/>
+</Currency>
+</Currency>
+</gesmes:Envelope>
