@@ -1,42 +1,164 @@
-<gesmes:Envelope xmlns:gesmes="http://www.gesmes.org/xml/2002-08-01" xmlns="http://www.ecb.int/vocabulary/2002-08-01/eurofxref">
-<gesmes:subject>Reference rates</gesmes:subject>
-<gesmes:Sender>
-<gesmes:name>European Central Bank</gesmes:name>
-</gesmes:Sender>
-<Currency>
-<Currency time="2018-03-29">
-<Currency Country="USD" rate="1.2321"/>
-<Currency Country="GBP" rate="0.87490"/>
-<Currency Country="JPY" rate="131.15"/>
-<Currency Country="BGN" rate="1.9558"/>
-<Currency Country="CZK" rate="25.425"/>
-<Currency Country="DKK" rate="7.4530"/>
-<Currency Country="HUF" rate="312.13"/>
-<Currency Country="PLN" rate="4.2106"/>
-<Currency Country="RON" rate="4.6565"/>
-<Currency Country="SEK" rate="10.2843"/>
-<Currency Country="CHF" rate="1.1779"/>
-<Currency Country="ISK" rate="121.50"/>
-<Currency Country="NOK" rate="9.6770"/>
-<Currency Country="HRK" rate="7.4323"/>
-<Currency Country="RUB" rate="70.8897"/>
-<Currency Country="TRY" rate="4.8976"/>
-<Currency Country="AUD" rate="1.6036"/>
-<Currency Country="BRL" rate="4.0938"/>
-<Currency Country="CAD" rate="1.5895"/>
-<Currency Country="CNY" rate="7.7468"/>
-<Currency Country="HKD" rate="9.6696"/>
-<Currency Country="IDR" rate="16933.98"/>
-<Currency Country="ILS" rate="4.3262"/>
-<Currency Country="INR" rate="80.2960"/>
-<Currency Country="KRW" rate="1310.89"/>
-<Currency Country="MXN" rate="22.5249"/>
-<Currency Country="MYR" rate="4.7658"/>
-<Currency Country="NZD" rate="1.7098"/>
-<Currency Country="PHP" rate="64.374"/>
-<Currency Country="SGD" rate="1.6158"/>
-<Currency Country="THB" rate="38.478"/>
-<Currency Country="ZAR" rate="14.6210"/>
-</Currency>
-</Currency>
-</gesmes:Envelope>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="currency.xsl"?>
+<catalog>
+	<Currency>
+		<name>U.S. Dollar</name>
+		<country>USD</country>
+		<rate>1.2321</rate>
+	</Currency>
+	<Currency>
+		<name>U.K. Pound Sterling</name>
+		<country>GBP</country>
+		<rate>0.87490</rate>
+	</Currency>
+	<Currency>
+		<name>Japanese Yen</name>
+		<country>JPY</country>
+		<rate>131.15</rate>
+	</Currency>
+	<Currency>
+		<name>Bulgarian Lev</name>
+		<country>BGN</country>
+		<rate>1.9558</rate>
+	</Currency>
+	<Currency>
+		<name>Czech Koruna</name>
+		<country>CZK</country>
+		<rate>25.425</rate>
+	</Currency>
+	<Currency>
+		<name>Danish Krone</name>
+		<country>DKK</country>
+		<rate>7.4530</rate>
+	</Currency>
+	<Currency>
+		<name>Hungarian Forint</name>
+		<country>HUF</country>
+		<rate>312.13</rate>
+	</Currency>
+	<Currency>
+		<name>Polish Zloty</name>
+		<country>PLN</country>
+		<rate>4.2106</rate>
+	</Currency>
+	<Currency>
+		<name>Romanian Leu</name>
+		<country>RON</country>
+		<rate>4.6565</rate>
+	</Currency>
+	<Currency>
+		<name>Swedish Krona</name>
+		<country>SEK</country>
+		<rate>10.2843</rate>
+	</Currency>
+	<Currency>
+		<name>Swiss Franc</name>
+		<country>CHF</country>
+		<rate>1.1779</rate>
+	</Currency>
+	<Currency>
+		<name>Icelandic Krona</name>
+		<country>ISK</country>
+		<rate>121.50</rate>
+	</Currency>
+	<Currency>
+		<name>Norwegian Krone</name>
+		<country>NOK</country>
+		<rate>9.6770</rate>
+	</Currency>
+	<Currency>
+		<name>Croatian Kuna</name>
+		<country>HRK</country>
+		<rate>7.4323</rate>
+	</Currency>
+	<Currency>
+		<name>Russian Ruble</name>
+		<country>RUB</country>
+		<rate>70.8897</rate>
+	</Currency>
+	<Currency>
+		<name>Turkish Lira</name>
+		<country>TRY</country>
+		<rate>4.8976</rate>
+	</Currency>
+	<Currency>
+		<name>Australian Dollar</name>
+		<country>AUD</country>
+		<rate>1.6036</rate>
+	</Currency>
+	<Currency>
+		<name>Brazilian Real</name>
+		<country>BRL</country>
+		<rate>4.0938</rate>
+	</Currency>
+	<Currency>
+		<name>Canadian Dollar</name>
+		<country>CAD</country>
+		<rate>1.5895</rate>
+	</Currency>
+	<Currency>
+		<name>Chinese Renminbi</name>
+		<country>CNY</country>
+		<rate>7.7468</rate>
+	</Currency>
+	<Currency>
+		<name>Hong Kong Dollar</name>
+		<country>HKD</country>
+		<rate>9.6696</rate>
+	</Currency>
+	<Currency>
+		<name>Indonesian Rupiah</name>
+		<country>IDR</country>
+		<rate>16933.98</rate>
+	</Currency>
+	<Currency>
+		<name>Israeli Shekel</name>
+		<country>ILS</country>
+		<rate>4.3262</rate>
+	</Currency>
+	<Currency>
+		<name>Indian Rupee</name>
+		<country>INR</country>
+		<rate>80.2960</rate>
+	</Currency>
+	<Currency>
+		<name>South Korean Won</name>
+		<country>KRW</country>
+		<rate>1310.89</rate>
+	</Currency>
+	<Currency>
+		<name>Mexican Peso</name>
+		<country>MXN</country>
+		<rate>22.5249</rate>
+	</Currency>
+	<Currency>
+		<name>Malaysian Ringgit</name>
+		<country>MYR</country>
+		<rate>4.7658</rate>
+	</Currency>
+	<Currency>
+		<name>New Zealand Dollar</name>
+		<country>NZD</country>
+		<rate>1.7098</rate>
+	</Currency>
+	<Currency>
+		<name>Philippine Peso</name>
+		<country>PHP</country>
+		<rate>64.374</rate>
+	</Currency>
+	<Currency>
+		<name>Singapore Dollar</name>
+		<country>SGD</country>
+		<rate>1.6158</rate>
+	</Currency>
+	<Currency>
+		<name>Thai Baht</name>
+		<country>THB</country>
+		<rate>38.478</rate>
+	</Currency>
+	<Currency>
+		<name>South African Rand</name>
+		<country>ZAR</country>
+		<rate>14.6210</rate>
+	</Currency>
+</catalog>
