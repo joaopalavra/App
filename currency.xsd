@@ -5,9 +5,28 @@
         <xs:element name="Currency" maxOccurs="unbounded" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
-              <xs:element type="xs:string" name="name"/>
-              <xs:element type="xs:string" name="country"/>
-              <xs:element type="xs:float" name="rate"/>
+              <xs:element name="name" type="xs:string">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="[A-Z]([a-zA-Z])*"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="country" type="xs:string">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="[A-Z][A-Z][A-Z]"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="rate" type="xs:float">
+                 <xs:simpleType>
+                  <xs:restriction base="xs:float">
+                    <xs:minExclusive value="0"/>
+                    <xs:minLength value="1"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:import href="output.xsl"/>
 <xsl:template match="/">
   <html>
     <head>
@@ -51,6 +52,18 @@
   <label>RESULT</label>
 <div class="mdl-card__actions mdl-card--border">
   
+  <table>
+    <tr> 
+        <th>Order ID</th> 
+        <th>Item ID</th> 
+        <th>Participant ID</th> 
+        <th>Status</th> 
+        <th>Shipping Provider</th> 
+        <th>Tracking Number</th> 
+        <th>Shipped Date</th> 
+        <th>Shipping Method</th>
+    </tr> 
+  </table>
 </div>
 
 </form>
