@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:import href="output.xsl"/>
 <xsl:output method="html" omit-xml-declaration="yes" indent="no"/>
 <xsl:template match="/">
 
@@ -11,6 +10,7 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
       <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"></link>
       <script  src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+      <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
       <link rel="stylesheet" href="style.css"></link>
 
       <script type="text/javascript" src="script.js"></script>
@@ -63,6 +63,7 @@
         <th>Value</th>
     </tr> 
   </table>
+  <a href="#" id="save-link" class="btn btn-lg btn-success">Save Table</a>
 </div>
 
 </form>

@@ -103,6 +103,36 @@ window.onload = function() {
 
 
     }
+    $('#save-link').click(function ()
+{
+  var retContent = [];
+  var retString = '';
+  console.log($('#output'));
+  $('#output tr').each(function (idx, elem)
+  {
+    
+    console.log($('#output'));
+    var elemText = [];
+    $(elem).children('th').each(function (childIdx, childElem)
+    {
+      elemText.push($(childElem).text());
+    });
+    $(elem).children('td').each(function (childIdx, childElem)
+    {
+      elemText.push($(childElem).text());
+    });
+    retContent.push(`(${elemText.join(',')})`);
+  });
+  retString = retContent.join(',\r\n');
+  var file = new Blob([retString], {type: 'text/plain'});
+  var btn = $('#save-link');
+  console.log($('#output'));
+  btn.attr("href", URL.createObjectURL(file));
+  btn.prop("download", "data.txt");
+})
+
+
+
 
     /*function getXML1() {
       console.log("entour2");
